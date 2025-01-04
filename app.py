@@ -1,7 +1,7 @@
 from openai import OpenAI
 import streamlit as st
 
-st.title("My First Bot")
+st.title("Intel APP")
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
